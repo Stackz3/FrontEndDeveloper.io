@@ -5,14 +5,16 @@ body {
   background-image: url(./images/bg-pattern-bottom.svg), url(./images/bg-pattern-top.svg);
   background-position: 45vw 55vh, -25vw -60vh;
   background-repeat: no-repeat, no-repeat;
-  max-width: 1440px;
+  min-width: 20vw;
+  min-height: 600px;
+  max-width: 100vw;
   max-height: 100vh;
 }
 
 .box {
   position: relative;
   margin: 0 auto;
-  top: 150px;
+  top: 25vh;
   width: 310px;
   height: 330px;
   border-radius: 5%;
@@ -76,7 +78,7 @@ body {
 }
 
 .attribution {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   height: 1rem;
   font-size: 11px;
